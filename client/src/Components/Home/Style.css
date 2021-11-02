@@ -1,0 +1,19 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 75px;
+}
+.cenImg{
+    display: block;
+    margin: auto auto;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 45px;
+}
