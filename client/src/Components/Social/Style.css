@@ -1,0 +1,41 @@
+.content_social{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(103, 152, 243,0.6);
+}
+
+.main_social{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.table{
+   display: flex;
+   flex-direction: column;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(239, 26, 247);
+}
+.counting{
+   text-align: center;
+   font-size: 40px;
+   color: white;
+}
+.descri{
+    font-size: 30px;
+    color: rgb(7, 151, 247);
+    text-align: center;
+}
+@media screen and (max-width:992px) {
+    .main_social{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

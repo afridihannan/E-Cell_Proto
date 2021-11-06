@@ -6,6 +6,10 @@
     margin-top: 40px;
     font-size: 75px;
 }
+.head1{
+    height: 100px;
+    padding-top: 40px;
+}
 .cenImg{
     display: block;
     margin: auto auto;
@@ -16,4 +20,16 @@
     align-items: center;
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 45px;
+}
+.home{
+    height: 100%;
+    background-color: rgba(103, 152, 243,0.6);
+}
+.downarrow{
+  margin-top: 20px;
+  height: 40px;
+  color: black;
+  overflow: hidden;
+  animation: animateDown infinite 1.5s;
 }

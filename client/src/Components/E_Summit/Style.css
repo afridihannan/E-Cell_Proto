@@ -1,0 +1,44 @@
+.sum_main{
+    width: 100vw;
+    height: 80vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(103, 152, 243,0.6);
+}
+.sum_cont{
+   width: 70%;
+   height: auto;
+   background-color: rgba(187, 104, 241,0.6);
+   padding: 20px;
+}
+.sum_img{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+.sum_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head_1{
+    font-size: 50px;
+}
+.head_2{
+    font-size: 40px;
+}
+.sum_about{
+    text-align: center;
+    font-size: 35px;
+}
+.sum_butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

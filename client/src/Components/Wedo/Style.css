@@ -1,0 +1,55 @@
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: rgba(103, 152, 243,0.6);
+}
+.motive {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: right;
+}
+.mission h1{
+    text-align: right;
+}
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.wedo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+    color: rgb(191, 12, 245);
+    font-size: 75px;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width:992px){
+  .motive{
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,76 @@
+.sign {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.sign_cont {
+  background-color: rgba(187, 104, 241,0.6);
+  height: 74%;
+  width: 30%;
+}
+.sign_head {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 7px;
+  margin-top: 14px;
+}
+.signin_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.place {
+  width: 82%;
+  margin: 15px;
+  border: 2px solid rgb(133, 7, 252);
+  background-color: #fff;
+  border-radius: 7px;
+  font-size: 22px;
+  text-align: center;
+}
+.place input {
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.butt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log_next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+@media screen  and (max-width:1130px){
+  .sign_head{
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .sign_cont{
+    width: 40%;
+  }
+  .place{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:824px){
+  .place{
+    width: 90%;
+    font-size: 19px;
+    margin: 7px;
+  }
+  .sign_cont{
+    height: 60%;
+  }
+}

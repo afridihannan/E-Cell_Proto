@@ -1,0 +1,22 @@
+.footi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.copy,.wp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    margin: 00px;
+}
+.copy p,.wp p{
+    margin: 00px;
+}
+.foot_main{
+    
+}
+

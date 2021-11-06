@@ -1,0 +1,28 @@
+.logpage {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.log {
+  background-color: rgba(187, 104, 241, 0.6);
+  height: 45%;
+  width: 30%;
+}
+.log_head {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 7px;
+  margin-top: 14px;
+}
+@media screen  and (max-width:1119px){
+  .log_head{
+    font-size: 25px;
+  }
+}

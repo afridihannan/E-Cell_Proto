@@ -1,0 +1,102 @@
+.c_main{
+    background-color: rgba(103, 152, 243,0.6);
+    height: 70vh;
+    width: 100vw;
+}
+.c_ico{
+   display: flex;
+   justify-content: space-evenly;
+}
+.c_ecell{
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/* .c_ecell img{
+    align-items: center;
+    
+} */
+.c_cont{
+    width: 30%;
+    text-align: center;
+}
+.c_cont h2{
+    margin-top: 22px;
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.c_cont p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.c_social{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.c_social p{
+    text-align: bottom;
+    font-size: 30px;
+    font-weight: 700;
+}
+.c_social i{
+    margin: 5px;
+    font-size: 24px;
+}
+.c_mess{
+    display: flex;
+    flex-direction: column;
+}
+.input_mes{
+    display: flex;
+    flex-direction: column;
+}
+.input_mes input{
+    margin: 10px;
+    height: 40px;
+}
+.input_mes input:focus{
+    border: 3px solid blue;
+}
+.input_mes button{
+    width: 220px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.send_contac{
+    width: 50%;
+}
+.send_message{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.send_message input{
+    height: 90%;
+    width: 90%;
+}
+.for_mess{
+    display: flex;
+    
+}
+
+@media screen and (max-width:942) {
+    .for_mess{
+        flex-direction: column;
+    }
+}
+/*<i class="fa fa-copyright"></i>*/

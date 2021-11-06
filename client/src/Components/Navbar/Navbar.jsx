@@ -1,12 +1,13 @@
 import React from "react";
 import './Style.css'
 import Ecell1 from '../../Assets/Ecell1.png'
+import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({setloginuser}) {
   return (
     <>
     
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark modify">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark modify">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             {/* <img src={Ecell1} height="90px" width="90px" alt="" /> */}
@@ -87,6 +88,11 @@ export default function Navbar() {
               <li className="nav-item h">
                 <a className="nav-link h" href="#">
                   Team
+                </a>
+              </li>
+              <li className="nav-item h">
+                <a onClick={()=>setloginuser({})} className="nav-link h" href="">
+                  Logout
                 </a>
               </li>
             </ul>
