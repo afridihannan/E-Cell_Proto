@@ -3,11 +3,10 @@ import "./Style.css";
 import Ecell1 from "../../Assets/Ecell1.png";
 import { Form } from "./Input";
 import axios from "axios";
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
-
-export default function Login({setloginuser}) {
-  let navigate=useNavigate();
+export default function Login({ setloginuser }) {
+  let navigate = useNavigate();
 
   const [user, setuser] = useState({
     email: "",
@@ -24,9 +23,9 @@ export default function Login({setloginuser}) {
     if (email && password) {
       axios.post("http://localhost:5678/login", user).then((res) => {
         alert(res.data.message);
-        setloginuser(res.data.user)
+        setloginuser(res.data.user);
         console.log(res.data.user);
-        navigate('/');
+        navigate("/");
       });
     } else {
       alert("please enter the necessary details");
@@ -41,7 +40,7 @@ export default function Login({setloginuser}) {
             E-Cell
           </div>
           <div className="signin_form">
-            {Form.map(function(props){
+            {Form.map(function (props) {
               return (
                 <>
                   <div className="place">
@@ -63,8 +62,7 @@ export default function Login({setloginuser}) {
           </div>
           <div className="log_next">
             <p>
-              Haven't registered yet{" "}
-              <a href="/signin">Register here</a>{" "}
+              Haven't registered yet <a href="/signin">Register here</a>{" "}
             </p>
           </div>
         </div>

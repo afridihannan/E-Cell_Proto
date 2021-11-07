@@ -47,8 +47,9 @@ app.post('/login',(req,res)=>{
     const{email,password}=req.body;
     User.findOne({email:email},(err,user)=>{
         if(user){
-            const isMatch=bcrypt.compare(password,user.password);
-            if(isMatch){
+            const isMatch=bcrypt.compareSync(password,user.password);
+            console.log(isMatch);
+            if(isMatch===true){
                 res.send({message:"Login Successful",user:user})
             }else{
                 res.send({message:"Invalid Credentials"})
