@@ -26,7 +26,7 @@ export default function Navbar({setloginuser}) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-10 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link h" aria-current="page" href="#">
+                <a className="nav-link h" aria-current="page" href="/about">
                   About Us
                 </a>
               </li>

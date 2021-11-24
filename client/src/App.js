@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import E_Summit from './Components/E_Summit/E_Summit';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Mine from './Components/Mine/Mine';
 
 import {useState} from 'react'
 
@@ -34,8 +35,10 @@ function App() {
       <Navbar setloginuser={loginuser,setloginuser}/>
         <Routes>
           <Route exact path='/' element={ loginuser && loginuser._id?<Main/>:<Login setloginuser={setloginuser}/>}/>
+          {/* <Route exact path='/' element={<Main/>}/> */}
           <Route exact path='/signin' element={<Signin/>}/>
           <Route exact path='/login' element={<Login setloginuser={setloginuser}/>}/>
+          <Route exact path='/about' element={<Mine/>}/>
         </Routes>
       
     </>
